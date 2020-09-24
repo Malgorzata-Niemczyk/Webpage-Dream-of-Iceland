@@ -8,6 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*NAVIGATION*/ 
 nav {
     height: 50px;
     background-color: #333;
@@ -25,4 +26,9 @@ nav li a {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    transition: color .3s;
+}
+
+nav li a:hover {
+    color: rgb(23, 149, 199);
 }
