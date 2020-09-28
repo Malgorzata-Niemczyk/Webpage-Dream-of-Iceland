@@ -39,7 +39,7 @@ nav li a:hover {
 .header-img {
     position: relative;
     height: 260px;
-    background-image: url('/img/black_beach.jpg');
+    background-image: url('../img/black_beach.jpg');
     background-size: cover;
     background-position: 60% 42%;
     background-repeat: no-repeat;
@@ -51,6 +51,8 @@ nav li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
 }
 
 .header-bg {
@@ -61,6 +63,4 @@ nav li a:hover {
 
 header h1 {
     margin-bottom: 10px;
-    text-transform: uppercase;
-    text-shadow: 3px 3px 3px black;
 }
