@@ -121,6 +121,11 @@ section {
     background-color: rgba(0, 0, 0, .8);
 }
 
+.about-us-text h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
 /*FOOTER*/
 footer {
     height: 80px;
