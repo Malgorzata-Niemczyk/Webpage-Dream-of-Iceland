@@ -80,28 +80,25 @@ section {
     margin: 40px 0;
 }
 
-.top {
+.about-us-section {
     position: relative;
     height: 300px;
-    background-image: url('../img/coffee.jpg');
     background-attachment: fixed;
     background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.top {
+    background-image: url('../img/coffee.jpg');
 }
 
 .middle {
-    position: relative;
-    height: 300px;
     background-image: url('../img/zamek-z-piasku.jpg');
-    background-attachment: fixed;
-    background-position: center;
 }
 
 .bottom {
-    position: relative;
-    height: 300px;
     background-image: url('../img/praca.jpg');
-    background-attachment: fixed;
-    background-position: center;
 }
 
 .about-us-text {
@@ -119,6 +116,7 @@ section {
     height: 50%;
     width: 100%;
     background-color: rgba(0, 0, 0, .8);
+    border-bottom-right-radius: 50px;
 }
 
 .about-us-text h3 {
