@@ -9,7 +9,6 @@ body {
 }
 
 /*NAVIGATION*/ 
-
 nav {
     height: 50px;
     background-color: #333;
@@ -65,8 +64,47 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/*FOOTER*/
+/*MAIN*/
+main {
+    width: 60%;
+    margin: 50px auto;
+}
 
+main h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.top {
+    position: relative;
+    height: 300px;
+    background-image: url('../img/coffee.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.middle {
+    position: relative;
+    height: 300px;
+    background-image: url('../img/zamek-z-piasku.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bottom {
+    position: relative;
+    height: 300px;
+    background-image: url('../img/praca.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*FOOTER*/
 footer {
     height: 80px;
     color: rgb(179, 178, 178);
