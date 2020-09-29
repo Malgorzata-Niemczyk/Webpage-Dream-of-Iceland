@@ -8,6 +8,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.services li {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
 /*NAVIGATION*/ 
 nav {
     height: 50px;
