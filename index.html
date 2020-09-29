@@ -10,25 +10,9 @@
 </head>
 
 <body>
-    
-    <header>
-        <div class="header-img">
-            <div class="header-text">
-                <h1>Dream of Iceland</h1>
-                <p>With us you discover the undiscovered wonders of Iceland!</p>
-            </div>
-            <div class="header-bg"></div>
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="price-list.html">Price List</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="nav.html"></div>
 
     <main>
         <h2>About Us</h2>
@@ -58,17 +42,10 @@
         </section>
     </main>
 
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            <span class="foot-ico"> 
-                <a href=""> <i class="fab fa-facebook-f"></i></a> 
-                <a href=""><i class="fab fa-twitter"></i></a> 
-                <a href=""><i class="fab fa-twitch"></i></a>
-            </span>
-        </p>
-    </footer>
+    <div w3-include-html="footer.html"></div>
 
-    <script src="js/script.js">
+    <script src="js/script.js"></script>
+    <script>
         includeHTML();
     </script>
 </body>
