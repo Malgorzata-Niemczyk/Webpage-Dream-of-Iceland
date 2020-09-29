@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.services li {
+.services li, .contact {
     font-size: 1.6rem;
     text-align: center;
 }
